@@ -1,23 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
 
+
+const urlImage = 'https://cdn.pixabay.com/photo/2016/04/18/22/05/seashells-1337565_1280.jpg';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="">
+      <h1>Hola Koders!!!</h1>
+      <img style={{width:'100px'}} src={urlImage} alt="imagen1" />
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore cumque quidem assumenda nobis commodi quod nihil dignissimos dolor, voluptate tenetur, architecto sed eaque. Totam at pariatur necessitatibus molestias saepe illo?</p>
     </div>
   );
 }
